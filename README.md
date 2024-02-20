@@ -16,6 +16,11 @@ Please make sure you have the valid OpenAI API key for GPT-4 model. Otherwise, y
 
 ### Keynesian Beauty Contest
 
+To reproduce the results in the paper, please place your OpenAI key in the ```Keynesian/config.json``` file and then run the following command.
+
+```bash
+python Keynesian/main.py
+```
 
 ### Bertrand Competition
 
