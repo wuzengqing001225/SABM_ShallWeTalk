@@ -70,4 +70,12 @@ If you find our work useful, please give us credit by citing:
       archivePrefix={arXiv},
       primaryClass={cs.AI}
 }
+@misc{wu2024shall,
+      title={Shall We Talk: Exploring Spontaneous Collaborations of Competing LLM Agents}, 
+      author={Zengqing Wu and Shuyuan Zheng and Qianying Liu and Xu Han and Brian Inhyuk Kwon and Makoto Onizuka and Shaojie Tang and Run Peng and Chuan Xiao},
+      year={2024},
+      eprint={:2402.12327},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}
 ```
