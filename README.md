@@ -2,7 +2,7 @@
 
 ![Workflow](https://github.com/wuzengqing001225/SABM_ShallWeTalk/blob/main/IMG/workflow.png?raw=true)
 
-This repository is the source code for our paper "Shall We Talk: Exploring Spontaneous Collaborations of Competing LLM Agents." In this work, we investigate whether LLM-empowered agents can achieve *spontaneous cooperation in a competitive environment* and explore its patterns through interdisciplinary case studies, including the **Keynesian Beauty Contest** (Game Theory), **Bertrand Competition** (Economics), and **Emergency Evacuation** (Behavioral Science).
+This repository is the source code for our paper **[Shall We Talk: Exploring Spontaneous Collaborations of Competing LLM Agents](https://arxiv.org/abs/2402.12327)**. In this work, we investigate whether LLM-empowered agents can achieve *spontaneous cooperation in a competitive environment* and explore its patterns through interdisciplinary case studies, including the **Keynesian Beauty Contest** (Game Theory), **Bertrand Competition** (Economics), and **Emergency Evacuation** (Behavioral Science).
 
 This work is realized based on a novel Agent-Based Modeling framework we proposed: Smart Agent-Based Modeling (SABM).
 
@@ -16,7 +16,7 @@ Please make sure you have the valid OpenAI API key for GPT-4 model. Otherwise, y
 
 ### Keynesian Beauty Contest
 
-To reproduce the results in the paper, please place your OpenAI key in the ```Keynesian/config.json``` file and then run the following command.
+To reproduce the results in the paper, please place your OpenAI API key in the ```KBC/config.json``` file and then run the following command.
 
 ```bash
 python KBC/main.py
