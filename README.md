@@ -62,19 +62,19 @@ Please place your OpenAI API key in the ```apikey.token``` file.
 If you find our work useful, please give us credit by citing:
 
 ```bibtex
+@misc{wu2024shall,
+      title={Shall We Talk: Exploring Spontaneous Collaborations of Competing LLM Agents}, 
+      author={Zengqing Wu and Shuyuan Zheng and Qianying Liu and Xu Han and Brian Inhyuk Kwon and Makoto Onizuka and Shaojie Tang and Run Peng and Chuan Xiao},
+      year={2024},
+      eprint={2402.12327},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}
 @misc{wu2023smart,
       title={Smart Agent-Based Modeling: On the Use of Large Language Models in Computer Simulations}, 
       author={Zengqing Wu and Run Peng and Xu Han and Shuyuan Zheng and Yixin Zhang and Chuan Xiao},
       year={2023},
       eprint={2311.06330},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI}
-}
-@misc{wu2024shall,
-      title={Shall We Talk: Exploring Spontaneous Collaborations of Competing LLM Agents}, 
-      author={Zengqing Wu and Shuyuan Zheng and Qianying Liu and Xu Han and Brian Inhyuk Kwon and Makoto Onizuka and Shaojie Tang and Run Peng and Chuan Xiao},
-      year={2024},
-      eprint={:2402.12327},
       archivePrefix={arXiv},
       primaryClass={cs.AI}
 }
