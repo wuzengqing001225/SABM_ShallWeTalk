@@ -1,8 +1,8 @@
-# SABM: Shall We Talk
+# SABM: Shall We Team Up
 
-![Workflow](https://github.com/wuzengqing001225/SABM_ShallWeTalk/blob/main/IMG/workflow.png?raw=true)
+![Workflow](https://github.com/wuzengqing001225/SABM_ShallWeTalk/blob/main/IMG/workflow_overview.jpg?raw=true)
 
-This repository is the source code for our paper **[Shall We Talk: Exploring Spontaneous Collaborations of Competing LLM Agents](https://arxiv.org/abs/2402.12327)**. In this work, we investigate whether LLM-empowered agents can achieve *spontaneous cooperation in a competitive environment* and explore its patterns through interdisciplinary case studies, including the **Keynesian Beauty Contest** (Game Theory), **Bertrand Competition** (Economics), and **Emergency Evacuation** (Behavioral Science).
+This repository is the source code for our paper **[Shall We Team Up: Exploring Spontaneous Collaborations of Competing LLM Agents](https://arxiv.org/abs/2402.12327)**. In this work, we investigate whether LLM-empowered agents can achieve *spontaneous cooperation in a competitive environment* and explore its patterns through interdisciplinary case studies, including the **Keynesian Beauty Contest** (Game Theory), **Bertrand Competition** (Economics), and **Emergency Evacuation** (Behavioral Science).
 
 This work is realized based on a novel Agent-Based Modeling framework we proposed: Smart Agent-Based Modeling (SABM).
 
@@ -12,15 +12,21 @@ This work is realized based on a novel Agent-Based Modeling framework we propose
 
 Please make sure you have the valid OpenAI API key for GPT-4 model. Otherwise, you may need to apply for one before you test our codes.
 
-***Please do not commit your api key to github, or share it with anyone online.**
+***Please do not commit your API key to GitHub, or share it with anyone online.**
 
 ### Keynesian Beauty Contest
 
-To reproduce the results in the paper, please place your OpenAI API key in the ```KBC/config.json``` file and then run the following command.
+To reproduce the results in the paper, please place your OpenAI API key in the ```configAPIKey.json``` file and then run the following command.
 
 ```bash
-python KBC/main.py
+python mainKBC.py
 ```
+
+The `configSimulation["runs"]` controls the total runs of simulation.
+
+You can also modify the `configSimulation["reward rules"]` variable to observe different agent performances under various reward rules.
+
+You may change the simulation settings in ```configEnv.py``` file.
 
 ### Bertrand Competition
 
@@ -61,6 +67,7 @@ Please place your OpenAI API key in the ```apikey.token``` file.
 
 If you find our work useful, please give us credit by citing:
 
+(1) Shall We Team Up paper
 ```bibtex
 @misc{wu2024shall,
       title={Shall We Talk: Exploring Spontaneous Collaborations of Competing LLM Agents}, 
@@ -70,6 +77,10 @@ If you find our work useful, please give us credit by citing:
       archivePrefix={arXiv},
       primaryClass={cs.AI}
 }
+```
+
+(2) SABM Framework
+```bibtex
 @misc{wu2023smart,
       title={Smart Agent-Based Modeling: On the Use of Large Language Models in Computer Simulations}, 
       author={Zengqing Wu and Run Peng and Xu Han and Shuyuan Zheng and Yixin Zhang and Chuan Xiao},
