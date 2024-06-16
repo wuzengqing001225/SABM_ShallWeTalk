@@ -2,7 +2,7 @@
 
 ![Workflow](https://github.com/wuzengqing001225/SABM_ShallWeTalk/blob/main/IMG/workflow_overview.jpg?raw=true)
 
-This repository is the source code for our paper **[Shall We Team Up: Exploring Spontaneous Collaborations of Competing LLM Agents](https://arxiv.org/abs/2402.12327)**. In this work, we investigate whether LLM-empowered agents can achieve *spontaneous cooperation in a competitive environment* and explore its patterns through interdisciplinary case studies, including the **Keynesian Beauty Contest** (Game Theory), **Bertrand Competition** (Economics), and **Emergency Evacuation** (Behavioral Science).
+This repository is the source code for our paper **[Shall We Team Up: Exploring Spontaneous Cooperation of Competing LLM Agents](https://arxiv.org/abs/2402.12327)**. In this work, we investigate whether LLM-empowered agents can achieve *spontaneous cooperation in a competitive environment* and explore its patterns through interdisciplinary case studies, including the **Keynesian Beauty Contest** (Game Theory), **Bertrand Competition** (Economics), and **Emergency Evacuation** (Behavioral Science).
 
 This work is realized based on a novel Agent-Based Modeling framework we proposed: Smart Agent-Based Modeling (SABM).
 
@@ -70,8 +70,8 @@ If you find our work useful, please give us credit by citing:
 (1) Shall We Team Up paper
 ```bibtex
 @misc{wu2024shall,
-      title={Shall We Talk: Exploring Spontaneous Collaborations of Competing LLM Agents}, 
-      author={Zengqing Wu and Shuyuan Zheng and Qianying Liu and Xu Han and Brian Inhyuk Kwon and Makoto Onizuka and Shaojie Tang and Run Peng and Chuan Xiao},
+      title={Shall We Team Up: Exploring Spontaneous Cooperation of Competing LLM Agents}, 
+      author={Zengqing Wu and Run Peng and Shuyuan Zheng and Qianying Liu and Xu Han and Brian Inhyuk Kwon and Makoto Onizuka and Shaojie Tang and Chuan Xiao},
       year={2024},
       eprint={2402.12327},
       archivePrefix={arXiv},
