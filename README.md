@@ -12,7 +12,7 @@ This work is realized based on a novel Agent-Based Modeling framework we propose
 
 Please make sure you have the valid OpenAI API key for GPT-4 model. Otherwise, you may need to apply for one before you test our codes.
 
-***Please do not commit your API key to GitHub, or share it with anyone online.**
+**Please do not commit your API key to GitHub, or share it with anyone online.**
 
 ### Keynesian Beauty Contest
 
