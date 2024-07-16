@@ -2,6 +2,8 @@
 
 ![Workflow](https://github.com/wuzengqing001225/SABM_ShallWeTalk/blob/main/IMG/workflow_overview.jpg?raw=true)
 
+### **Please refer to [Shall We Team Up](https://github.com/wuzengqing001225/SABM_ShallWeTeamUp) for the latest repo.**
+
 This repository is the source code for our paper **[Shall We Team Up: Exploring Spontaneous Cooperation of Competing LLM Agents](https://arxiv.org/abs/2402.12327)**. In this work, we investigate whether LLM-empowered agents can achieve *spontaneous cooperation in a competitive environment* and explore its patterns through interdisciplinary case studies, including the **Keynesian Beauty Contest** (Game Theory), **Bertrand Competition** (Economics), and **Emergency Evacuation** (Behavioral Science).
 
 This work is realized based on a novel Agent-Based Modeling framework we proposed: Smart Agent-Based Modeling (SABM).
